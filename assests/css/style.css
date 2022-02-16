@@ -82,8 +82,9 @@ body {
         background-image: url(../images/hero-bg.jpg);
         background-size: cover;
         background-position: center;
-        position: relative;
-        align-items: flex-start;
+        display: flex;
+        justify-content: wrap;
+        flex-wrap: wrap;
     }
 
     .hero-cta {
